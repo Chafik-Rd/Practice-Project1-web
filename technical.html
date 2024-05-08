@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Google</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font Styles Kanit -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="nav-check">
+        <div id="navbar">
+            <div class="navbar-logo-huam">
+                <div class="logo">
+                    <a href="home.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+                <div class="nav-huam">
+                    <label for="nav-check">
+                        <div id="huamburgur" >
+                            <div class="line"></div>
+                            <div class="line"></div>
+                            <div class="line"></div>
+                        </div>
+                    </label>
+                </div>
+
+                    
+                
+            </div>
+            <ul id="menu">
+                <li ><a href="home.html">หน้าแรก</a></li>
+                <li id="firstPage"><a href="technical.html">เทคนิคการค้นหา</a></li>
+                <li ><a href="shortcute.html">คีย์ลัด</a></li>
+                <input type="checkbox" id="menuGoogle-check">
+                <li class="headmenuGoogle" >
+                    <label for="menuGoogle-check"><a>ผลิตภัณฑ์ของกูเกิล ▾</a></label>
+                    <div id="menuGoogle">
+                        <ul >
+                            <li ><a href="googleProducts.html" id="agPr">ผลิตภัณฑ์ทั้งหมด</a></li>
+                            <li ><a href="youtube.html" id="ayou">Youtube</a></li>
+                            <li ><a href="googleChrome.html" id="agC">Google Chrome</a></li>
+                            <li ><a href="googleMeet.html" id="agM">Google Meet</a></li>
+                            <li ><a href="googleDrive.html" id="agD">Google Drive</a></li>
+                            <li ><a href="gmail.html" id="agm">Gmail</a></li>
+                            <li ><a href="googlePhotos.html" id="agPh">Google Photo</a></li>
+                            <li ><a href="googleQuick.html" id="agQ">Google Quick Draw</a></li>
+                            <li ><a href="googleTranslate.html" id="agTrans">Google Translate</a></li>
+                            <li ><a href="googleTrends.html" id="agTrend">Google Trends</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="navBottom">
+            <div class="navBottomBlue"></div>
+            <div class="navBottomYellow"></div>
+            <div class="navBottomRed"></div>
+            <div class="navBottomGreen"></div>
+       </div>
+   </nav>
+   <div class="mainhead">
+        <div class="mainText">
+            <h1>Search <br>Tricks</h1>
+            <p>สุดยอดเคล็ดลับการค้นหาและเคล็ดลับของ Google เทคนิคการใช้ search ในแต่ละรูปแบบที่สามารถเลือกใช้งานได้ตามความเหมาะสมของข้อมูล<br>ในแต่ละรูปแบบ</p>
+        </div>
+        <div class="simbo">
+            <img src="./img/arrow.png" alt="">
+        </div>
+        <div class="mainBox" >
+            <div id="site" onmouseover="boxShadow('site')" onmouseout="boxShadowNomal('site')">
+                <h1><span style="background-color: #D3D3D3;">site:</span> kmitl.ac.th</h1>
+                <p>จำกัดการค้นหาไว้ที่ไซต์เดียว สามารถทำการค้นหาทั่วไปและตรวจสอบอย่างรวดเร็วว่าข้อมูลตรงกับฐานข้อมูลหรือไม่</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย site:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="site:">
+                        <a href="https://www.google.com/search?q=site:" target="_black"><div style="background-color: #4285F4;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="inurl" onmouseover="boxShadow('inurl')" onmouseout="boxShadowNomal('inurl')">
+                <h1><span style="background-color: #D3D3D3;">inurl:</span> https</h1>
+                <p>การค้นหา InURL สามารถใช้เพื่อค้นหาคำหลักเฉพาะภายใน URL เพื่อให้ในผลลัพธ์การค้นหาผลลัพธ์ที่แสดงคือหน้าเว็บที่มีคำหลักที่สอบถามใน URL</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย inurl:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="inurl:">
+                        <a href="https://www.google.com/search?q=inurl:" target="_black"><div style="background-color: #FBBC05;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="filetype" onmouseover="boxShadow('filetype')" onmouseout="boxShadowNomal('filetype')">
+                <h1><span style="background-color: #D3D3D3;">filetype:</span> pdf</h1>
+                <p>การค้นหา FileType จะแสดงประเภทไฟล์ที่ถูกต้องในผลการค้นหาคุณเพียงพิมพ์ประเภทไฟล์และประเภทไฟล์ตามด้วยคำค้นหาเพื่อค้นหาผลลัพธ์ที่เกี่ยวข้อง</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย filetype:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="filetype:">
+                        <a href="https://www.google.com/search?q=filetype:" target="_black"><div style="background-color: #EA4335;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="define" onmouseover="boxShadow('define')" onmouseout="boxShadowNomal('define')">
+                <h1><span style="background-color: #D3D3D3;">define:</span> cat</h1>
+                <p>ใช้เพื่อการแปลภาษาจากข้อมูลหรือวลีที่ต้องการแปลภาษา</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย define:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="define:">
+                        <a href="https://www.google.com/search?q=define:" target="_black"><div style="background-color: #34A853;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="related" onmouseover="boxShadow('related')" onmouseout="boxShadowNomal('related')">
+                <h1><span style="background-color: #D3D3D3;">related:</span> kmitl.ac.th</h1>
+                <p>การค้นหาที่เกี่ยวข้องของ Google เช่นเดียวกับการเพิ่มวลีคำหลักให้เหมาะกับบทความที่ต้องการค้นหาที่เกี่ยวข้อง</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย related:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="related:">
+                        <a href="https://www.google.com/search?q=related:" target="_black"><div style="background-color: #4285F4;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="etymology" onmouseover="boxShadow('etymology')" onmouseout="boxShadowNomal('etymology')">
+                <h1><span style="background-color: #D3D3D3;">etymology:</span> mortgage</h1>
+                <p>การค้นหาข้อมูลหรือวลีจากแหล่งเก็บข้อมูลหรือในพจนานุกรมและสามารถค้นหาที่มาของข้อมูลได้</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย etymology:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="etymology:">
+                        <a href="https://www.google.com/search?q=etymology:" target="_black"><div style="background-color: #FBBC05;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="kmitl" onmouseover="boxShadow('kmitl')" onmouseout="boxShadowNomal('kmitl')">
+                <h1>kmitl <span style="background-color: #D3D3D3;">+it</span></h1>
+                <p>การใส่คำค้นหาของคุณในเครื่องหมายคำพูดจะเริ่มต้นการค้นหาแบบตรงทั้งหมดสำหรับวลีนั้น</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย +</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="kmitl +">
+                        <a href="https://www.google.com/search?q=kmitl%20+" target="_black"><div style="background-color: #EA4335;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="apple" onmouseover="boxShadow('apple')" onmouseout="boxShadowNomal('apple')">
+                <h1>apple <span style="background-color: #D3D3D3;">-fruit</span></h1>
+                <p>ยกเว้นคำหรือวลี ในตัวอย่างของเราหน้าใด ๆ ที่ส่งคืนจะเกี่ยวข้องกับงาน</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย -</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="apple -">
+                        <a href="https://www.google.com/search?q=apple%20-" target="_black"><div style="background-color: #34A853;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="loveKmi" onmouseover="boxShadow('loveKmi')" onmouseout="boxShadowNomal('loveKmi')">
+                <h1><span style="background-color: #D3D3D3;">"</span> I love KMITL <span style="background-color: #D3D3D3;">"</span></h1>
+                <p>การใส่คำค้นหาของคุณในเครื่องหมายคำพูดจะเริ่มต้นการค้นหาแบบตรงทั้งหมดสำหรับวลีนั้น</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย " "</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder=" ">
+                        <a href="https://www.google.com/webhp" target="_black"><div style="background-color: #4285F4;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="intitle" onmouseover="boxShadow('intitle')" onmouseout="boxShadowNomal('intitle')">
+                <h1><span style="background-color: #D3D3D3;">intitle:</span> iphone11</h1>
+                <p>ค้นหาหน้าเว็บที่มีคำบางคำ (หรือคำ) ในชื่อเรื่อง</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย intitle:</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="intitle:">
+                        <a href="https://www.google.com/search?q=intitle:" target="_black"><div style="background-color: #FBBC05;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+            <div id="nearby" onmouseover="boxShadow('nearby')" onmouseout="boxShadowNomal('nearby')">
+                <h1>hospital <span style="background-color: #D3D3D3;">nearby</span></h1>
+                <p>การค้นหาสถานที่ภายในพื้นที่ที่ระบุ สามารถปรับแต่งคำขอการค้นหาได้</p>
+                <div class="trickBox">
+                    <p>ลองค้นหาด้วย nearby</p>
+                    <div class="searchBox">
+                        <input type="text" placeholder="nearby">
+                        <a href="https://www.google.com/search?q=nearby" target="_black"><div style="background-color: #EA4335;">SEARCH</div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+   </div>
+   <footer>
+    <div class="pages">
+        <p id="headPage">Pages</p>
+        <li><a href="home.html">หน้าแรก</a></li>
+        <li><a href="technical.html">เทคนิคการค้นหา</a></li>
+        <li><a href="shortcute.html">คีย์ลัด</a></li>
+        <li><a href="">ผลิตภัณฑ์ของกูเกิล</a></li>
+    </div>
+    <div class="thisPro">
+        <p id="headThis">This project</p>
+        <p>Part of Web technology class KMITL Faculty of Information Technology</p><br>
+        <p>Copyright ©2019 Allright reserved</p>
+    </div>
+   </footer>
+    
+</body>
+</html>
